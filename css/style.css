@@ -541,12 +541,15 @@ figcaption.port-gird-caption-agileits_w3layouts:hover {
 .filtr-item:nth-child(5),
 .filtr-item:nth-child(6),
 .filtr-item:nth-child(7),
-.filtr-item:nth-child(8) {
+.filtr-item:nth-child(8),
+.filtr-item:nth-child(9),
+.filtr-item:nth-child(10) {
     border-bottom: 12px solid #9bbdd8;
 }
 
 .filtr-item:nth-child(4),
-.filtr-item:nth-child(8) {
+.filtr-item:nth-child(8),
+.filtr-item:nth-child(10) {
     border-right: 11px solid #9bbdd8;
     width: 25.55%;
 }
@@ -1424,15 +1427,15 @@ span.icon_twitter {
     background: #1da1f2;
 }
 
-span.icon_facebook {
+span.icon_linkedin {
     background: #3b5998;
 }
 
-span.icon_dribbble {
+span.icon_github {
     background: #ea4c89;
 }
 
-span.icon_g_plus {
+span.icon_stack_overflow {
     background: #dd4b39;
 }
 
@@ -2102,7 +2105,8 @@ span.icon_g_plus {
     }
     .filtr-item,
     .filtr-item:nth-child(4),
-    .filtr-item:nth-child(8) {
+    .filtr-item:nth-child(8),
+    .filtr-item:nth-child(10) {
         float: left;
         width: 50%;
     }
@@ -2294,7 +2298,8 @@ span.icon_g_plus {
     .filtr-item,
     .filtr-item,
     .filtr-item:nth-child(4),
-    .filtr-item:nth-child(8) {
+    .filtr-item:nth-child(8),
+    .filtr-item:nth-child(10) {
         float: none;
         width: 100%;
     }
