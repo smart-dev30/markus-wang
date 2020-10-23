@@ -833,20 +833,26 @@ div#services {
 .services-right-w3ls {
     padding: 2em 2em;
     margin-top: 3em;
-    margin-left: 6em;
     -webkit-box-shadow: 5px 10px 10px 0px rgba(216, 216, 216, 0.78);
     -moz-box-shadow: 5px 10px 10px 0px rgba(216, 216, 216, 0.78);
     box-shadow: 5px 10px 10px 0px rgba(216, 216, 216, 0.78);
 }
 
+.left-space-6em {
+    margin-left: 6em;
+}
+
 .serv-left {
-    border: 2px dashed #d0d0d0;
     width: 350px;
     height: 350px;
-    margin-left: 8em;
-    border-radius: 50%;
     position: relative;
     padding-top: 8.5em;
+}
+
+.serv-left .image-agile {
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 
 .icon-grid1 {
@@ -1573,6 +1579,14 @@ span.icon_g_plus {
 
 .progress.blue .progress-bar:after {
     border-bottom-color: #3485ef;
+}
+
+.progress.orange .progress-bar:after {
+    border-bottom-color: #fc7e46;
+}
+
+.progress.sky .progress-bar:after {
+    border-bottom-color: #1da1f2;
 }
 
 @-webkit-keyframes animate-positive {
